@@ -6,8 +6,13 @@ import rospy
 
 if __name__ == '__main__':
     # ros的节点 , 需要传入节点的名称
-    rospy.init_node('hello_node')
+    rospy.init_node('itcast_node')
 
-    print 'hello ros python'
+    # rate 频率, hz赫兹 10ｈｚ一秒钟执行１0次
+    rate = rospy.Rate(1)
+
+    while not rospy.is_shutdown():
+        print 'hello ros python'
+        rate.sleep()
 
     rospy.spin()
