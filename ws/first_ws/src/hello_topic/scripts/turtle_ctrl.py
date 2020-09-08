@@ -3,7 +3,7 @@
 from PyQt5.QtWidgets import *
 import sys
 
-from window import MainWindow
+from window import MainWindow, TurtleWindow
 
 import rospy
 
@@ -14,7 +14,7 @@ if __name__ == '__main__':
     # Qt ui 部分
     app = QApplication(sys.argv)
     # 窗体展示
-    window = MainWindow()
+    window = TurtleWindow()
     window.show()
 
     sys.exit(app.exec_())
