@@ -1,0 +1,25 @@
+<launch>
+
+    <node pkg="turtlesim"
+          type="turtlesim_node"
+          name="turtle"
+          respawn="true"
+          respawn_delay="3"
+          output="screen"
+          ns="itcast"
+    >
+
+        <!--
+         将topic名称进行映射 from是原来的　to是现在的
+
+        不加/默认前面会补充　ns
+         -->
+<!--        <remap from="turtle1/pose" to="/pose" />-->
+<!--        <remap from="turtle1/pose" to="pose" />-->
+        
+        <remap from="/itcast/turtle1/cmd_vel" to="/cmd_vel" />
+
+    </node>
+
+
+</launch>

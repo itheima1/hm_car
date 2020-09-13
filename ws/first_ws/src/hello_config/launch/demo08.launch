@@ -1,0 +1,29 @@
+<launch>
+
+    <!-- 外部ａｒｇｓ: 服务对象是启动launch 文件的命令 -->
+    <arg name="itheima" default="22"/>
+    <arg name="itcast" default="hello itheima"/>
+
+    <!-- args参数 -->
+    <node pkg="hello_config"
+          type="param_node.py"
+          name="itcast_node"
+          respawn="true"
+          respawn_delay="3"
+          output="screen"
+          ns="itheima"
+          args="a b c d e"
+    >
+
+        <!--
+        /ns/node_name/param_name
+        -->
+
+        <param name="bxg" type="int" value="$(arg itheima)"/>
+        <param name="czxy" type="str" value="$(arg itcast)"/>
+
+        
+    </node>
+
+
+</launch>

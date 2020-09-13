@@ -1,0 +1,27 @@
+<launch>
+
+
+    <group ns="itcast">
+        <node pkg="turtlesim"
+              type="turtlesim_node"
+              name="turtle"
+              respawn="true"
+              respawn_delay="3"
+              output="screen"
+        ></node>
+
+        <node pkg="turtlesim" type="turtle_teleop_key" name="teleop"></node>
+    </group>
+
+    <group ns="itheima">
+        <node pkg="turtlesim"
+              type="turtlesim_node"
+              name="turtle"
+              respawn="true"
+              respawn_delay="3"
+              output="screen"
+        ></node>
+
+        <node pkg="turtlesim" type="turtle_teleop_key" name="teleop"></node>
+    </group>
+</launch>

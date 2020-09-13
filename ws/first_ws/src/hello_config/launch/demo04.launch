@@ -1,0 +1,23 @@
+<launch>
+
+    <node pkg="turtlesim"
+          type="turtlesim_node"
+          name="turtle"
+          respawn="true"
+          respawn_delay="3"
+          output="screen"
+          ns="itcast"
+    >
+
+        <!--
+        /ns/node_name/param_name
+        -->
+
+        <param name="background_r" type="int" value="220"/>
+        <param name="background_g" type="int" value="0"/>
+        <param name="background_b" type="int" value="0"/>
+        
+    </node>
+
+
+</launch>

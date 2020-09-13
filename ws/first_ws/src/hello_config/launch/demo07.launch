@@ -1,0 +1,28 @@
+<launch>
+
+    <param name="bxg" type="int" value="120"/>
+    <param name="czxy" type="str" value="hi"/>
+
+    <!-- args参数 -->
+    <node pkg="hello_config"
+          type="param_node.py"
+          name="itcast_node"
+          respawn="true"
+          respawn_delay="3"
+          output="screen"
+          ns="itheima"
+          args="a b c d e"
+    >
+
+        <!--
+        /ns/node_name/param_name
+        -->
+
+        <param name="bxg" type="int" value="110"/>
+        <param name="czxy" type="str" value="hello"/>
+
+        
+    </node>
+
+
+</launch>

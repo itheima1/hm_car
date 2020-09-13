@@ -1,0 +1,21 @@
+<launch>
+
+
+    <!-- args参数 -->
+    <node pkg="hello_config"
+          type="param_node.py"
+          name="itcast_node"
+          respawn="true"
+          respawn_delay="3"
+          output="screen"
+          ns="itheima"
+    >
+    </node>
+
+    <!-- 要写绝对路径
+        $(find pkg)查找到包的绝对路径
+    -->
+    <include file="$(find hello_config)/launch/demo04.launch"></include>
+
+
+</launch>

@@ -1,0 +1,13 @@
+<launch>
+
+    <!-- 配置多个节点 -->
+
+    <!--
+        pkg　包名
+        type　可执行文件名称
+        name 节点名称
+    -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim"></node>
+    <node pkg="turtlesim" type="turtle_teleop_key" name="teleop_turtle"></node>
+
+</launch>
