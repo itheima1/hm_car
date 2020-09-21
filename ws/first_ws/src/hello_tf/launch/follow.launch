@@ -1,0 +1,37 @@
+<launch>
+
+
+    <!-- 小乌龟窗体显示 -->
+    <node pkg="turtlesim"
+          type="turtlesim_node"
+          name="turtle"
+          output="screen"
+          respawn="true"
+    ></node>
+
+    <!-- 第一只小乌龟 -->
+    <node pkg="hello_tf"
+          type="turtle_a_ctrl_node.py"
+          name="turtle_a"
+          output="screen"
+          respawn="true"
+    ></node>
+
+    <!-- 第二只小乌龟 -->
+    <node pkg="hello_tf"
+          type="turtle_b_ctrl_node.py"
+          name="turtle_b"
+          output="screen"
+          respawn="true"
+    ></node>
+
+
+    <!-- 开启键盘操控节点 -->
+    <node pkg="turtlesim"
+          type="turtle_teleop_key"
+          name="turtle_a_ctrl"
+          output="screen"
+          respawn="true"
+    ></node>
+
+</launch>
