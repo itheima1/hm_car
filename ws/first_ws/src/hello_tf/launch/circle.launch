@@ -1,0 +1,70 @@
+<launch>
+
+
+    <!-- 小乌龟窗体显示 -->
+    <node pkg="turtlesim"
+          type="turtlesim_node"
+          name="turtlesim"
+          output="screen"
+          respawn="true"
+    ></node>
+
+    <!-- 第一只小乌龟 -->
+    <node pkg="hello_tf"
+          type="turtle_node.py"
+          name="turtle_a"
+          output="screen"
+          respawn="true"
+    >
+        <param name="name" value="turtle_a" type="str"/>
+        <param name="x" value="5" type="double"/>
+        <param name="y" value="5" type="double"/>
+        <param name="theta" value="0" type="double"/>
+    </node>
+
+    <!-- 第二只小乌龟 -->
+    <node pkg="hello_tf"
+          type="turtle_node.py"
+          name="turtle_b"
+          output="screen"
+          respawn="true"
+    >
+        <param name="name" value="turtle_b" type="str"/>
+        <param name="x" value="8" type="double"/>
+        <param name="y" value="8" type="double"/>
+        <param name="theta" value="90" type="double"/>
+    </node>
+
+    <!-- 开启键盘操控节点 -->
+    <node pkg="turtlesim"
+          type="turtle_teleop_key"
+          name="turtle_a_ctrl"
+          output="screen"
+          respawn="true"
+    >
+        <remap from="/turtle1/cmd_vel" to="/turtle_a/cmd_vel"/>
+    </node>
+
+    <node pkg="hello_tf" type="circle_node.py" name="circle_node"></node>
+
+
+    <!-- 开启follow控制节点
+      follow　去追随　parent
+    -->
+    <node pkg="hello_tf"
+          type="follow_node.py"
+          name="follow"
+          output="screen"
+          respawn="true"
+    >
+        <param name="follow" value="turtle_b" type="str"/>
+        <param name="parent" value="circle" type="str"/>
+    </node>
+
+    <!-- rviz可视化 -->
+    <node pkg="rviz"
+          type="rviz"
+          name="rviz"
+          args="-d $(find hello_tf)/rviz/follow.rviz"></node>
+
+</launch>

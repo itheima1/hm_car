@@ -1,0 +1,155 @@
+<launch>
+
+
+    <!-- 小乌龟窗体显示 -->
+    <node pkg="turtlesim"
+          type="turtlesim_node"
+          name="turtlesim"
+          output="screen"
+          respawn="true"
+    ></node>
+
+    <!-- 第一只小乌龟 -->
+    <node pkg="hello_tf"
+          type="turtle_node.py"
+          name="turtle_a"
+          output="screen"
+          respawn="true"
+    >
+        <param name="name" value="turtle_a" type="str"/>
+        <param name="x" value="5" type="double"/>
+        <param name="y" value="5" type="double"/>
+        <param name="theta" value="0" type="double"/>
+    </node>
+
+    <!-- 第二只小乌龟 -->
+    <node pkg="hello_tf"
+          type="turtle_node.py"
+          name="turtle_b"
+          output="screen"
+          respawn="true"
+    >
+        <param name="name" value="turtle_b" type="str"/>
+        <param name="x" value="8" type="double"/>
+        <param name="y" value="1" type="double"/>
+        <param name="theta" value="0" type="double"/>
+    </node>
+
+    <!-- 第三只小乌龟 -->
+    <node pkg="hello_tf"
+          type="turtle_node.py"
+          name="turtle_c"
+          output="screen"
+          respawn="true"
+    >
+        <param name="name" value="turtle_c" type="str"/>
+        <param name="x" value="1" type="double"/>
+        <param name="y" value="8" type="double"/>
+        <param name="theta" value="0" type="double"/>
+    </node>
+
+    <!-- 第四只小乌龟 -->
+    <node pkg="hello_tf"
+          type="turtle_node.py"
+          name="turtle_d"
+          output="screen"
+          respawn="true"
+    >
+        <param name="name" value="turtle_d" type="str"/>
+        <param name="x" value="8" type="double"/>
+        <param name="y" value="8" type="double"/>
+        <param name="theta" value="0" type="double"/>
+    </node>
+
+    <!-- 第五只小乌龟 -->
+    <node pkg="hello_tf"
+          type="turtle_node.py"
+          name="turtle_e"
+          output="screen"
+          respawn="true"
+    >
+        <param name="name" value="turtle_e" type="str"/>
+        <param name="x" value="1" type="double"/>
+        <param name="y" value="1" type="double"/>
+        <param name="theta" value="0" type="double"/>
+    </node>
+
+    <!-- 开启键盘操控节点 -->
+    <node pkg="turtlesim"
+          type="turtle_teleop_key"
+          name="turtle_a_ctrl"
+          output="screen"
+          respawn="true"
+    >
+        <remap from="/turtle1/cmd_vel" to="/turtle_a/cmd_vel"/>
+    </node>
+
+    <!-- 静态发布关系 A和左侧的关系 -->
+    <!-- tf static_transform_publisher -->
+    <!-- x y z yaw pitch roll frame_id child_frame_id  period(hz) -->
+    <node pkg="tf"
+          type="static_transform_publisher"
+          name="turtle_a_left"
+          args="0 1 0 0 0 0 /turtle_a /turtle_a_left 10"></node>
+
+    <node pkg="tf"
+          type="static_transform_publisher"
+          name="turtle_a_right"
+          args="0 -1 0 0 0 0 /turtle_a /turtle_a_right 10"></node>
+
+    <node pkg="tf"
+          type="static_transform_publisher"
+          name="turtle_a_back"
+          args="-1 0 0 0 0 0 /turtle_a /turtle_a_back 10"></node>
+
+    <node pkg="tf"
+          type="static_transform_publisher"
+          name="turtle_a_front"
+          args="1 0 0 0 0 0 /turtle_a /turtle_a_front 10"></node>
+
+
+    <!-- B跟随Ａ的左侧 -->
+    <node pkg="hello_tf"
+          type="follow_node.py"
+          name="follow_left"
+          output="screen"
+          respawn="true"
+    >
+        <param name="follow" value="turtle_b" type="str"/>
+        <param name="parent" value="turtle_a_left" type="str"/>
+    </node>
+
+    <!-- C跟随Ａ的右侧 -->
+    <node pkg="hello_tf"
+          type="follow_node.py"
+          name="follow_right"
+          output="screen"
+          respawn="true"
+    >
+        <param name="follow" value="turtle_c" type="str"/>
+        <param name="parent" value="turtle_a_right" type="str"/>
+    </node>
+
+    <!-- D跟随Ａ的后侧 -->
+    <node pkg="hello_tf"
+          type="follow_node.py"
+          name="follow_back"
+          output="screen"
+          respawn="true"
+    >
+        <param name="follow" value="turtle_d" type="str"/>
+        <param name="parent" value="turtle_a_back" type="str"/>
+    </node>
+
+    <!-- E跟随Ａ的前侧 -->
+    <node pkg="hello_tf"
+          type="follow_node.py"
+          name="follow_front"
+          output="screen"
+          respawn="true"
+    >
+        <param name="follow" value="turtle_e" type="str"/>
+        <param name="parent" value="turtle_a_front" type="str"/>
+    </node>
+
+</launch>
