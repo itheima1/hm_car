@@ -84,14 +84,15 @@ if __name__ == '__main__':
     node_name = "zxcar_driver_node"
     rospy.init_node(node_name)
 
-    driver = Driver(port='/dev/ttyUSB0')
+    port = rospy.get_param('~port', default='/dev/ttyUSB0')
+
+    driver = Driver(port=port)
     # 实现电池数据回调
     driver.battery_callback = battery_callback
     # 实现速度数据的回调
     driver.vel_callback = get_vel_callback
     # 实现imu数据回调
     driver.imu_callback = imu_callback
-    driver.connect()
 
     # 提供LED和蜂鸣器的服务
     rospy.Service('/zxcar/buzzer', SetBool, buzzer_callback)
@@ -109,6 +110,9 @@ if __name__ == '__main__':
     # IMU数据发布
     imu_pub = rospy.Publisher('/zxcar/imu', Imu, queue_size=10)
     mag_pub = rospy.Publisher('/zxcar/mag', MagneticField, queue_size=10)
+
+    # 连接driver
+    driver.connect()
 
     # 阻塞
     rospy.spin()

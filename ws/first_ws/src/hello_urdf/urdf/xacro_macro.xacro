@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="box">
+
+
+    <material name="grey">
+        <color rgba="0.8 0.8 0.8 0.8"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 0.8"/>
+    </material>
+
+
+    <xacro:macro name="HMBox" params="name xyz='0 0 0' rpy='0 0 0' size color='grey'">
+        <link name="${name}">
+            <visual>
+                <origin xyz="${xyz}" rpy="${rpy}"/>
+                <geometry>
+                    <box size="${size}"/>
+                </geometry>
+                <material name="${color}"/>
+            </visual>
+        </link>
+    </xacro:macro>
+
+    <!-- link -->
+    <xacro:HMBox name="base" size="1 2 3"/>
+
+    <!-- link -->
+    <xacro:HMBox name="link2" size="3 2 1" color="black"/>
+
+    <!-- joint: -->
+    <joint name="joint0" type="fixed">
+        <parent link="base"/>
+        <child link="link2"/>
+    </joint>
+
+</robot>

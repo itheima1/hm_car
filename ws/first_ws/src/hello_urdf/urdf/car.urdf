@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot name="joint1">
+
+    <material name="black">
+        <color rgba="0 0 0 0.8"/>
+    </material>
+
+    <material name="grey">
+        <color rgba="0.8 0.8 0.8 0.8"/>
+    </material>
+
+    <!-- link -->
+    <link name="base">
+        <visual>
+            <geometry>
+                <!-- x y z -->
+                <box size="0.4 0.2 0.03"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+    </link>
+
+    <link name="front">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <geometry>
+                <cylinder length="0.24" radius="0.01"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+    </link>
+
+    <joint name="joint0" type="fixed">
+        <!-- who root -->
+        <parent link="base"/>
+        <!-- child -->
+        <child link="front"/>
+        <origin xyz="0.18 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="back">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <geometry>
+                <cylinder length="0.24" radius="0.01"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+    </link>
+
+    <joint name="joint1" type="fixed">
+        <!-- who root -->
+        <parent link="base"/>
+        <!-- child -->
+        <child link="back"/>
+        <origin xyz="-0.18 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="wheel_front_left">
+        <visual>
+            <origin xyz="0 0.015 0" rpy="1.57 0 0"/>
+            <geometry>
+                <cylinder length="0.03" radius="0.05"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <joint name="joint2" type="continuous">
+        <parent link="front"/>
+        <child link="wheel_front_left"/>
+        <origin xyz="0 0.12 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <link name="wheel_front_right">
+        <visual>
+            <origin xyz="0 -0.015 0" rpy="1.57 0 0"/>
+            <geometry>
+                <cylinder length="0.03" radius="0.05"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <joint name="joint3" type="continuous">
+        <parent link="front"/>
+        <child link="wheel_front_right"/>
+        <origin xyz="0 -0.12 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+
+    <link name="wheel_back_left">
+        <visual>
+            <origin xyz="0 0.015 0" rpy="1.57 0 0"/>
+            <geometry>
+                <cylinder length="0.03" radius="0.05"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <joint name="joint4" type="continuous">
+        <parent link="back"/>
+        <child link="wheel_back_left"/>
+        <origin xyz="0 0.12 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <link name="wheel_back_right">
+        <visual>
+            <origin xyz="0 -0.015 0" rpy="1.57 0 0"/>
+            <geometry>
+                <cylinder length="0.03" radius="0.05"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <joint name="joint5" type="continuous">
+        <parent link="back"/>
+        <child link="wheel_back_right"/>
+        <origin xyz="0 -0.12 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+</robot>

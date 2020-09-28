@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot name="box">
+
+    <!-- link -->
+    <link name="base">
+        <visual>
+            <geometry>
+                <!-- x y z -->
+                <box size="1 2 3"/>
+            </geometry>
+            <material name="blue">
+                <!--
+                 rgba: red green blue alpha
+                 [0-255]
+                 [0.0-1.0]　float
+                 -->
+                <color rgba="0 0 1.0 0.5"/>
+            </material>
+        </visual>
+    </link>
+
+</robot>

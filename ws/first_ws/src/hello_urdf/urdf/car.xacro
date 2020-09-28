@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="car">
+
+    <material name="black">
+        <color rgba="0 0 0 0.8"/>
+    </material>
+
+    <material name="grey">
+        <color rgba="0.8 0.8 0.8 0.8"/>
+    </material>
+
+    <xacro:property name="board_x" value="0.4"/>
+    <xacro:property name="board_y" value="0.2"/>
+    <xacro:property name="board_z" value="0.03"/>
+
+    <xacro:property name="extra_len" value="0.02"/>
+    <xacro:property name="extra_radius" value="${board_z/3}"/>
+
+    <xacro:property name="pi" value="3.1415926"/>
+    <xacro:property name="d_180" value="${pi}"/>
+    <xacro:property name="d_90" value="${pi/2}"/>
+    <xacro:property name="d_45" value="${pi/4}"/>
+
+    <xacro:property name="wheel_width" value="0.03"/>
+    <xacro:property name="wheel_radius" value="0.05"/>
+
+    <xacro:macro name="HMBox" params="name xyz='0 0 0' rpy='0 0 0' size color='grey'">
+        <link name="${name}">
+            <visual>
+                <origin xyz="${xyz}" rpy="${rpy}"/>
+                <geometry>
+                    <box size="${size}"/>
+                </geometry>
+                <material name="${color}"/>
+            </visual>
+        </link>
+    </xacro:macro>
+
+    <xacro:macro name="HMCylinder" params="name length radius xyz='0 0 0' rpy='0 0 0' color='grey'">
+        <link name="${name}">
+            <visual>
+                <origin xyz="${xyz}" rpy="${rpy}"/>
+                <geometry>
+                    <cylinder length="${length}" radius="${radius}"/>
+                </geometry>
+                <material name="${color}"/>
+            </visual>
+        </link>
+    </xacro:macro>
+
+    <xacro:macro name="HMJoint" params="name parent child type='fixed' xyz='0 0 0' rpy='0 0 0' axis='1 0 0'">
+        <joint name="${name}" type="${type}">
+            <parent link="${parent}"/>
+            <child link="${child}"/>
+            <origin xyz="${xyz}" rpy="${rpy}"/>
+            <axis xyz="${axis}"/>
+        </joint>
+    </xacro:macro>
+
+    <xacro:macro name="HMWheel" params="name left='true'">
+        <xacro:if value="${left}">
+            <xacro:HMCylinder name="${name}"
+                              length="${wheel_width}"
+                              radius="${wheel_radius}"
+                              xyz="0 ${wheel_width/2} 0"
+                              rpy="${d_90} 0 0"
+                              color="black"/>
+        </xacro:if>
+        <xacro:unless value="${left}">
+            <xacro:HMCylinder name="${name}"
+                              length="${wheel_width}"
+                              radius="${wheel_radius}"
+                              xyz="0 -${wheel_width/2} 0"
+                              rpy="${d_90} 0 0"
+                              color="black"/>
+        </xacro:unless>
+    </xacro:macro>
+
+    <!-- link -->
+    <xacro:HMBox name="base" size="${board_x} ${board_y} ${board_z}"/>
+
+    <xacro:HMCylinder name="front"
+                      length="${board_y + 2 * extra_len}"
+                      radius="${extra_radius}"
+                      rpy="${d_90} 0 0"/>
+
+    <xacro:HMJoint name="joint0"
+                   parent="base"
+                   child="front"
+                   xyz="${board_x/2-extra_len} 0 0" />
+radius
+    <xacro:HMCylinder name="back"
+                      length="${board_y + 2 * extra_len}"
+                      radius="${extra_radius}"
+                      rpy="${d_90} 0 0"/>
+
+    <xacro:HMJoint name="joint1"
+                   parent="base"
+                   child="back"
+                   xyz="-${board_x/2-extra_len} 0 0" />
+
+<!--    <xacro:HMCylinder name="wheel_front_left"-->
+<!--                      length="${wheel_width}"-->
+<!--                      radius="${wheel_radius}"-->
+<!--                      xyz="0 ${wheel_width/2} 0"-->
+<!--                      rpy="${d_90} 0 0"-->
+<!--                      color="black"/>-->
+    <xacro:HMWheel name="wheel_front_left"/>
+
+    <xacro:HMJoint name="joint2"
+                   type="continuous"
+                   parent="front"
+                   child="wheel_front_left"
+                   xyz="0 ${board_y/2 + extra_len} 0"
+                   axis="0 1 0" />
+
+<!--    <xacro:HMCylinder name="wheel_front_right"-->
+<!--                      length="${wheel_width}"-->
+<!--                      radius="${wheel_radius}"-->
+<!--                      xyz="0 -${wheel_width/2} 0"-->
+<!--                      rpy="${d_90} 0 0"-->
+<!--                      color="black"/>-->
+    <xacro:HMWheel name="wheel_front_right" left="false"/>
+
+    <xacro:HMJoint name="joint3"
+                   type="continuous"
+                   parent="front"
+                   child="wheel_front_right"
+                   xyz="0 -${board_y/2 + extra_len} 0"
+                   axis="0 1 0" />
+
+    <xacro:HMWheel name="wheel_back_left"/>
+
+    <xacro:HMJoint name="joint4"
+                   type="continuous"
+                   parent="back"
+                   child="wheel_back_left"
+                   xyz="0 ${board_y/2 + extra_len} 0"
+                   axis="0 1 0" />
+
+    <xacro:HMWheel name="wheel_back_right" left="false"/>
+
+    <xacro:HMJoint name="joint5"
+                   type="continuous"
+                   parent="back"
+                   child="wheel_back_right"
+                   xyz="0 -${board_y/2 + extra_len} 0"
+                   axis="0 1 0" />
+
+</robot>

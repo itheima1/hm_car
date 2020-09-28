@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="box">
+
+    <xacro:property name="len_x" value="1.2"/>
+    <xacro:property name="len_y" value="0.4"/>
+    <xacro:property name="len_z" value="0.6"/>
+
+    <!-- link -->
+    <link name="base">
+        <visual>
+            <geometry>
+                <!-- x y z -->
+                <box size="${len_x} ${len_y} ${len_z}"/>
+            </geometry>
+        </visual>
+    </link>
+
+</robot>

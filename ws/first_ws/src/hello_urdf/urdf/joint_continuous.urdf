@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot name="joint1">
+
+    <material name="green">
+        <color rgba="0 1.0 0 0.5"/>
+    </material>
+
+    <material name="blue">
+        <color rgba="0 0 1.0 0.5"/>
+    </material>
+
+    <!-- link -->
+    <link name="base">
+        <visual>
+            <geometry>
+                <!-- x y z -->
+                <box size="0.2 0.4 0.6"/>
+            </geometry>
+            <material name="green"/>
+        </visual>
+    </link>
+
+    <!-- link -->
+    <link name="link2">
+        <visual>
+            <origin xyz="0.05 0 0" rpy="0 0 0"/>
+            <geometry>
+                <!-- x y z -->
+                <box size="0.1 0.2 0.8"/>
+            </geometry>
+            <material name="blue"/>
+        </visual>
+    </link>
+
+    <!-- joint: -->
+    <joint name="joint0" type="continuous">
+        <!-- who root -->
+        <parent link="base"/>
+        <!-- child -->
+        <child link="link2"/>
+        <origin xyz="0.1 0 0" rpy="0 0 0"/>
+        <!-- xyz: vector x:1 y:1 z:1 -->
+<!--        <axis xyz="1 1 1"/>-->
+    </joint>
+
+</robot>

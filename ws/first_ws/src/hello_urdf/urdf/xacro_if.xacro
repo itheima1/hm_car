@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="box">
+
+    <xacro:property name="len_x" value="1.2"/>
+    <xacro:property name="len_y" value="0.4"/>
+    <xacro:property name="len_z" value="0.6"/>
+
+    <material name="grey">
+        <color rgba="0.8 0.8 0.8 0.8"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 0.8"/>
+    </material>
+
+
+    <xacro:macro name="HMGeo" params="name box='true' xyz='0 0 0' rpy='0 0 0' color='grey'">
+        <link name="${name}">
+            <visual>
+                <origin xyz="${xyz}" rpy="${rpy}"/>
+                <geometry>
+                    <xacro:if value="${box}">
+                        <box size="0.1 0.2 0.3"/>
+                    </xacro:if>
+                    <xacro:unless value="${box}">
+                        <cylinder length="1" radius="0.5"/>
+                    </xacro:unless>
+                </geometry>
+                <material name="${color}"/>
+            </visual>
+        </link>
+    </xacro:macro>
+
+    <!-- link -->
+    <xacro:HMGeo name="base" box="false"/>
+
+</robot>

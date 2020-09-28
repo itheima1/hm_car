@@ -1,0 +1,17 @@
+<launch>
+
+    <node pkg="zxcar_driver"
+          type="zxcar_driver_node.py"
+          name="zxcar_driver"
+          output="screen"
+          respawn="true">
+        <param name="port" value="/dev/ttyUSB0" />
+    </node>
+
+    <node pkg="zxcar_driver"
+          type="zxcar_driver_gui_node.py"
+          name="zxcar_driver_gui"
+          output="screen"
+          respawn="true">
+    </node>
+</launch>

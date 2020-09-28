@@ -1,0 +1,19 @@
+<launch>
+
+    <arg name="model" default="geo_box.urdf"/>
+
+<!--    <param name="robot_description" textfile="$(find hello_urdf)/urdf/$(arg model)"></param>-->
+    <param name="robot_description" command="$(find xacro)/xacro -i $(find hello_urdf)/urdf/$(arg model)"/>
+
+    <param name="use_gui" value="true"/>
+
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher"/>
+    
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+
+<!--    <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>-->
+
+    <node pkg="rviz" type="rviz" name="rviz"
+          args="-d $(find hello_urdf)/rviz/display.rviz"></node>
+
+</launch>

@@ -1,0 +1,29 @@
+<launch>
+
+    <node pkg="zxcar_driver"
+          type="zxcar_driver_node.py"
+          name="zxcar_driver"
+          output="screen"
+          respawn="true">
+        <param name="port" value="/dev/ttyUSB0" />
+    </node>
+
+    <!-- driver gui -->
+    <node pkg="zxcar_driver"
+          type="zxcar_driver_gui_node.py"
+          name="zxcar_driver_gui"
+          output="screen"
+          respawn="true">
+    </node>
+
+    <!-- odom -->
+    <node pkg="zxcar_odom_filter"
+          type="zxcar_odom_node.py"
+          name="zxcar_odom_node"
+          output="screen"
+          respawn="true">
+    </node>
+    
+    <include file="$(find zxcar_description)/launch/display.launch"></include>
+
+</launch>

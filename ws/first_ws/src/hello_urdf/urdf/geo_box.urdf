@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot name="box">
+
+    <!-- link -->
+    <link name="base">
+        <visual>
+            <geometry>
+                <!-- x y z -->
+                <box size="1 2 3"/>
+            </geometry>
+        </visual>
+    </link>
+
+</robot>

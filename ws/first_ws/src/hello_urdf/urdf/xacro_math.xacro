@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="box">
+
+    <xacro:property name="a" value="1"/>
+    <xacro:property name="b" value="2"/>
+    <xacro:property name="c" value="3"/>
+
+    <!-- link -->
+    <link name="base">
+        <visual>
+            <geometry>
+                <!-- x y z -->
+                <box size="${a + b} ${a - c} ${b * c}"/>
+            </geometry>
+        </visual>
+    </link>
+
+</robot>
