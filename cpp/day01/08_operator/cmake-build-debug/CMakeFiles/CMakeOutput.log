@@ -1,0 +1,530 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/env/qt/Tools/mingw730_64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/env/qt/Tools/mingw730_64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_d7daf/fast && C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d7daf.dir\build.make CMakeFiles/cmTC_d7daf.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7daf.dir/testCCompiler.c.obj
+C:\env\qt\Tools\mingw730_64\bin\gcc.exe    -o CMakeFiles\cmTC_d7daf.dir\testCCompiler.c.obj   -c C:\Users\xiaomi\CLionProjects6\08_operator\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_d7daf.exe
+C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d7daf.dir\link.txt --verbose=1
+C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_d7daf.dir/objects.a
+C:\env\qt\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\cmTC_d7daf.dir/objects.a @CMakeFiles\cmTC_d7daf.dir\objects1.rsp
+C:\env\qt\Tools\mingw730_64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_d7daf.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d7daf.exe -Wl,--out-implib,libcmTC_d7daf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d7daf.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_944b2/fast && C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_944b2.dir\build.make CMakeFiles/cmTC_944b2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_944b2.dir/CMakeCCompilerABI.c.obj
+C:\env\qt\Tools\mingw730_64\bin\gcc.exe   -v -o CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj   -c C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=C:\env\qt\Tools\mingw730_64\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib '
+Thread model: posix
+gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+ C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/cc1.exe -quiet -v -iprefix C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/ -D_REENTRANT C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\xiaomi\AppData\Local\Temp\ccptZynp.s
+GNU C11 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include"
+ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64C:/msys64-2/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include"
+ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"
+ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C11 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: afb3948cd5c0c8f535365414e7310436
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj C:\Users\xiaomi\AppData\Local\Temp\ccptZynp.s
+GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
+COMPILER_PATH=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/;C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+Linking C executable cmTC_944b2.exe
+C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_944b2.dir\link.txt --verbose=1
+C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_944b2.dir/objects.a
+C:\env\qt\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\cmTC_944b2.dir/objects.a @CMakeFiles\cmTC_944b2.dir\objects1.rsp
+C:\env\qt\Tools\mingw730_64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_944b2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_944b2.exe -Wl,--out-implib,libcmTC_944b2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\env\qt\Tools\mingw730_64\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib '
+Thread model: posix
+gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/;C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_944b2.exe' '-mtune=core2' '-march=nocona'
+ C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\xiaomi\AppData\Local\Temp\cctzI9AH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_944b2.exe C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_944b2.dir/objects.a --no-whole-archive --out-implib libcmTC_944b2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_944b2.exe' '-mtune=core2' '-march=nocona'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include]
+    add: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed]
+    add: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include]
+  collapse include dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed]
+  collapse include dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include] ==> [C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include;C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_944b2/fast && C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_944b2.dir\build.make CMakeFiles/cmTC_944b2.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_944b2.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\env\qt\Tools\mingw730_64\bin\gcc.exe   -v -o CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj   -c C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\env\qt\Tools\mingw730_64\bin\gcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib ']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/cc1.exe -quiet -v -iprefix C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/ -D_REENTRANT C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\xiaomi\AppData\Local\Temp\ccptZynp.s]
+  ignore line: [GNU C11 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64C:/msys64-2/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include]
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed]
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: afb3948cd5c0c8f535365414e7310436]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj C:\Users\xiaomi\AppData\Local\Temp\ccptZynp.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
+  ignore line: [COMPILER_PATH=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_944b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+  ignore line: [Linking C executable cmTC_944b2.exe]
+  ignore line: [C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_944b2.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_944b2.dir/objects.a]
+  ignore line: [C:\env\qt\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\cmTC_944b2.dir/objects.a @CMakeFiles\cmTC_944b2.dir\objects1.rsp]
+  ignore line: [C:\env\qt\Tools\mingw730_64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_944b2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_944b2.exe -Wl,--out-implib,libcmTC_944b2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\env\qt\Tools\mingw730_64\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib ']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_944b2.exe' '-mtune=core2' '-march=nocona']
+  link line: [ C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\xiaomi\AppData\Local\Temp\cctzI9AH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_944b2.exe C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_944b2.dir/objects.a --no-whole-archive --out-implib libcmTC_944b2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+    arg [C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\xiaomi\AppData\Local\Temp\cctzI9AH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_944b2.exe] ==> ignore
+    arg [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_944b2.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_944b2.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> [C:/env/qt/Tools/mingw730_64/lib]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> [C:/env/qt/Tools/mingw730_64/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0;C:/env/qt/Tools/mingw730_64/lib/gcc;C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/lib;C:/env/qt/Tools/mingw730_64/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_12f6d/fast && C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_12f6d.dir\build.make CMakeFiles/cmTC_12f6d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12f6d.dir/testCXXCompiler.cxx.obj
+C:\env\qt\Tools\mingw730_64\bin\g++.exe     -o CMakeFiles\cmTC_12f6d.dir\testCXXCompiler.cxx.obj -c C:\Users\xiaomi\CLionProjects6\08_operator\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_12f6d.exe
+C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_12f6d.dir\link.txt --verbose=1
+C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_12f6d.dir/objects.a
+C:\env\qt\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\cmTC_12f6d.dir/objects.a @CMakeFiles\cmTC_12f6d.dir\objects1.rsp
+C:\env\qt\Tools\mingw730_64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_12f6d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_12f6d.exe -Wl,--out-implib,libcmTC_12f6d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_12f6d.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_bb9ac/fast && C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_bb9ac.dir\build.make CMakeFiles/cmTC_bb9ac.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb9ac.dir/CMakeCXXCompilerABI.cpp.obj
+C:\env\qt\Tools\mingw730_64\bin\g++.exe    -v -o CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=C:\env\qt\Tools\mingw730_64\bin\g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib '
+Thread model: posix
+gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+ C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/cc1plus.exe -quiet -v -iprefix C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/ -D_REENTRANT C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\xiaomi\AppData\Local\Temp\cclwuJyk.s
+GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"
+ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"
+ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include"
+ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64C:/msys64-2/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include"
+ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"
+ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 86cf749bb84a0f12f1d61bff4e68fffd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\xiaomi\AppData\Local\Temp\cclwuJyk.s
+GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
+COMPILER_PATH=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/;C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+Linking CXX executable cmTC_bb9ac.exe
+C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_bb9ac.dir\link.txt --verbose=1
+C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_bb9ac.dir/objects.a
+C:\env\qt\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\cmTC_bb9ac.dir/objects.a @CMakeFiles\cmTC_bb9ac.dir\objects1.rsp
+C:\env\qt\Tools\mingw730_64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_bb9ac.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bb9ac.exe -Wl,--out-implib,libcmTC_bb9ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\env\qt\Tools\mingw730_64\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib '
+Thread model: posix
+gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/;C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb9ac.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+ C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\xiaomi\AppData\Local\Temp\ccpmRCJK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bb9ac.exe C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_bb9ac.dir/objects.a --no-whole-archive --out-implib libcmTC_bb9ac.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb9ac.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++]
+    add: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32]
+    add: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward]
+    add: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include]
+    add: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed]
+    add: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++]
+  collapse include dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32]
+  collapse include dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward]
+  collapse include dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include]
+  collapse include dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed]
+  collapse include dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include] ==> [C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++;C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32;C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward;C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include;C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_bb9ac/fast && C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_bb9ac.dir\build.make CMakeFiles/cmTC_bb9ac.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/xiaomi/CLionProjects6/08_operator/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_bb9ac.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\env\qt\Tools\mingw730_64\bin\g++.exe    -v -o CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\env\qt\Tools\mingw730_64\bin\g++.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib ']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/cc1plus.exe -quiet -v -iprefix C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/ -D_REENTRANT C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\xiaomi\AppData\Local\Temp\cclwuJyk.s]
+  ignore line: [GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"]
+  ignore line: [ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64C:/msys64-2/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/env/qt/Tools/mingw730_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++]
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32]
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward]
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include]
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed]
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 7.3.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 86cf749bb84a0f12f1d61bff4e68fffd]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+  ignore line: [ C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\xiaomi\AppData\Local\Temp\cclwuJyk.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
+  ignore line: [COMPILER_PATH=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_bb9ac.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+  ignore line: [Linking CXX executable cmTC_bb9ac.exe]
+  ignore line: [C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_bb9ac.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\cmTC_bb9ac.dir/objects.a]
+  ignore line: [C:\env\qt\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\cmTC_bb9ac.dir/objects.a @CMakeFiles\cmTC_bb9ac.dir\objects1.rsp]
+  ignore line: [C:\env\qt\Tools\mingw730_64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_bb9ac.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bb9ac.exe -Wl,--out-implib,libcmTC_bb9ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\env\qt\Tools\mingw730_64\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib ']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb9ac.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+  link line: [ C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\xiaomi\AppData\Local\Temp\ccpmRCJK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_bb9ac.exe C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_bb9ac.dir/objects.a --no-whole-archive --out-implib libcmTC_bb9ac.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+    arg [C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/env/qt/Tools/mingw730_64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\xiaomi\AppData\Local\Temp\ccpmRCJK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bb9ac.exe] ==> ignore
+    arg [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_bb9ac.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_bb9ac.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc] ==> [C:/env/qt/Tools/mingw730_64/lib/gcc]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> [C:/env/qt/Tools/mingw730_64/lib]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> [C:/env/qt/Tools/mingw730_64/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [C:/env/qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0;C:/env/qt/Tools/mingw730_64/lib/gcc;C:/env/qt/Tools/mingw730_64/x86_64-w64-mingw32/lib;C:/env/qt/Tools/mingw730_64/lib]
+  implicit fwks: []
+
+

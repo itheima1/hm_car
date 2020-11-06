@@ -1,0 +1,4 @@
+C:\soft\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\xiaomi\CLionProjects6\day02
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug

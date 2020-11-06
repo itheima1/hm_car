@@ -1,0 +1,36 @@
+C:\Users\xiaomi\Desktop\day01\资料\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\xiaomi\CLionProjects6\HelloCPP
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: C:/env/qt/Tools/mingw730_64/bin/gcc.exe
+-- Check for working C compiler: C:/env/qt/Tools/mingw730_64/bin/gcc.exe -- broken
+CMake Error at C:/Users/xiaomi/Desktop/day01/璧勬枡/CLion-2019.3.2.win/bin/cmake/win/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/env/qt/Tools/mingw730_64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/xiaomi/CLionProjects6/HelloCPP/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_856aa/fast && C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_856aa.dir\build.make CMakeFiles/cmTC_856aa.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/xiaomi/CLionProjects6/HelloCPP/cmake-build-debug/CMakeFiles/CMakeTmp'
+    process_begin: CreateProcess(NULL, C:\Users\xiaomi\Desktop\day01\鐠у嫭鏋CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\xiaomi\CLionProjects6\HelloCPP\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_856aa.dir/testCCompiler.c.obj", ...) failed.
+    make (e=2): 绯荤粺鎵句笉鍒版寚瀹氱殑鏂囦欢銆�
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_856aa.dir\build.make:64: CMakeFiles/cmTC_856aa.dir/testCCompiler.c.obj] Error 2
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/xiaomi/CLionProjects6/HelloCPP/cmake-build-debug/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:120: cmTC_856aa/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/xiaomi/CLionProjects6/HelloCPP/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/xiaomi/CLionProjects6/HelloCPP/cmake-build-debug/CMakeFiles/CMakeError.log".

@@ -1,0 +1,3 @@
+C:/Users/xiaomi/CLionProjects6/05_input_output/cmake-build-debug/CMakeFiles/05_input_output.dir
+C:/Users/xiaomi/CLionProjects6/05_input_output/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/xiaomi/CLionProjects6/05_input_output/cmake-build-debug/CMakeFiles/rebuild_cache.dir

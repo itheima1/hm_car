@@ -1,0 +1,3 @@
+C:/Users/xiaomi/CLionProjects6/06_if/cmake-build-debug/CMakeFiles/06_if.dir
+C:/Users/xiaomi/CLionProjects6/06_if/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/xiaomi/CLionProjects6/06_if/cmake-build-debug/CMakeFiles/rebuild_cache.dir

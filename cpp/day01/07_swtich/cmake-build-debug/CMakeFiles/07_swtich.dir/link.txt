@@ -1,0 +1,3 @@
+C:\Users\xiaomi\Desktop\day01\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\07_swtich.dir/objects.a
+C:\env\qt\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\07_swtich.dir/objects.a @CMakeFiles\07_swtich.dir\objects1.rsp
+C:\env\qt\Tools\mingw730_64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\07_swtich.dir/objects.a -Wl,--no-whole-archive  -o 07_swtich.exe -Wl,--out-implib,lib07_swtich.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\07_swtich.dir\linklibs.rsp

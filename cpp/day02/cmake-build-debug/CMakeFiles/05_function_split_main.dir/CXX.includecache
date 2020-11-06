@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/xiaomi/CLionProjects6/day02/05_function/split/hello.cpp
+hello.h
+C:/Users/xiaomi/CLionProjects6/day02/05_function/split/hello.h
+iostream
+-
+
+C:/Users/xiaomi/CLionProjects6/day02/05_function/split/hello.h
+

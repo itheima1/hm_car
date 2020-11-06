@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="04_input_output"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04_input_output">
+				<Option output="C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/04_input_output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 04_input_output"/>
+					<CompileFile command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04_input_output/fast">
+				<Option output="C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/04_input_output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/env/qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 04_input_output/fast"/>
+					<CompileFile command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/xiaomi/CLionProjects6/04_input_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/xiaomi/CLionProjects6/04_input_output/main.cpp">
+			<Option target="04_input_output"/>
+		</Unit>
+		<Unit filename="C:/Users/xiaomi/CLionProjects6/04_input_output/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

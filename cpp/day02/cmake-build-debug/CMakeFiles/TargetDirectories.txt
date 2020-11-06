@@ -1,0 +1,17 @@
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/02_array_02_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/01_loop_02_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/02_array_01_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/01_loop_01_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/02_array_03_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/02_array_04_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/03_str_01_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/05_function_03_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/04_vector_01_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/04_vector_02_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/05_function_01_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/04_vector_03_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/05_function_02_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/05_function_split_main.dir
+C:/Users/xiaomi/CLionProjects6/day02/cmake-build-debug/CMakeFiles/rebuild_cache.dir

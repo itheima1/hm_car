@@ -1,0 +1,3 @@
+C:/Users/xiaomi/CLionProjects6/02_variable/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/xiaomi/CLionProjects6/02_variable/cmake-build-debug/CMakeFiles/02_variable.dir
+C:/Users/xiaomi/CLionProjects6/02_variable/cmake-build-debug/CMakeFiles/rebuild_cache.dir

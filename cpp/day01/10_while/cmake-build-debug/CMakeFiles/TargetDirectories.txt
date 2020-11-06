@@ -1,0 +1,3 @@
+C:/Users/xiaomi/CLionProjects6/10_while/cmake-build-debug/CMakeFiles/10_while.dir
+C:/Users/xiaomi/CLionProjects6/10_while/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/xiaomi/CLionProjects6/10_while/cmake-build-debug/CMakeFiles/rebuild_cache.dir

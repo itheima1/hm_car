@@ -1,0 +1,13 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/xiaomi/CLionProjects6/HelloCPP/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_856aa/fast && C:/env/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_856aa.dir\build.make CMakeFiles/cmTC_856aa.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/xiaomi/CLionProjects6/HelloCPP/cmake-build-debug/CMakeFiles/CMakeTmp'
+process_begin: CreateProcess(NULL, C:\Users\xiaomi\Desktop\day01\璧勬枡\CLion-2019.3.2.win\bin\cmake\win\bin\cmake.exe -E cmake_echo_color --switch= --progress-dir=C:\Users\xiaomi\CLionProjects6\HelloCPP\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1 "Building C object CMakeFiles/cmTC_856aa.dir/testCCompiler.c.obj", ...) failed.
+make (e=2): 系统找不到指定的文件。
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_856aa.dir\build.make:64: CMakeFiles/cmTC_856aa.dir/testCCompiler.c.obj] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/xiaomi/CLionProjects6/HelloCPP/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_856aa/fast] Error 2
+
+
+
