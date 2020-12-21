@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="day04" targetName="day04" />
+      <config projectName="day04" targetName="02_oop_07_main" />
+      <config projectName="day04" targetName="02_oop_11_main" />
+      <config projectName="day04" targetName="02_oop_03_main" />
+      <config projectName="day04" targetName="02_oop_09_main" />
+      <config projectName="day04" targetName="02_oop_06_main" />
+      <config projectName="day04" targetName="02_oop_04_main" />
+      <config projectName="day04" targetName="01_reference_01_main" />
+      <config projectName="day04" targetName="02_oop_01_main" />
+      <config projectName="day04" targetName="02_oop_08_main" />
+      <config projectName="day04" targetName="02_oop_02_main" />
+      <config projectName="day04" targetName="02_oop_12_main" />
+      <config projectName="day04" targetName="07_main" />
+      <config projectName="day04" targetName="01_reference_02_main" />
+      <config projectName="day04" targetName="02_oop_10_main" />
+      <config projectName="day04" targetName="02_oop_13_main" />
+      <config projectName="day04" targetName="02_oop_05_main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="866692f6-3233-4cbc-8c15-a2b32710608d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1jzKPEl6k6XRq6f8M1Gd8JF1lIc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02_oop/07" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xiaomi\CLionProjects6\day04\02_oop\07" />
+      <recent name="C:\Users\xiaomi\CLionProjects6\day04\02_oop" />
+      <recent name="C:\Users\xiaomi\CLionProjects6\day04\02_oop\06" />
+      <recent name="C:\Users\xiaomi\CLionProjects6\day04\01_reference" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.07_main">
+    <configuration name="01_reference_01_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="01_reference_01_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="01_reference_01_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01_reference_02_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="01_reference_02_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="01_reference_02_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_01_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_01_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_01_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_02_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_02_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_02_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_03_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_03_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_03_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_04_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_04_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_04_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_05_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_05_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_05_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_06_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_06_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_06_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_07_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_07_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_07_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_08_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_08_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_08_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_09_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_09_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_09_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_10_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_10_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_10_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_11_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_11_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_11_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_12_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_12_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_12_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02_oop_13_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="02_oop_13_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="02_oop_13_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="07_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="07_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="07_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="day04" TARGET_NAME="day04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="day04" RUN_TARGET_NAME="day04">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.01_reference_01_main" />
+      <item itemvalue="CMake Application.01_reference_02_main" />
+      <item itemvalue="CMake Application.02_oop_01_main" />
+      <item itemvalue="CMake Application.02_oop_02_main" />
+      <item itemvalue="CMake Application.02_oop_03_main" />
+      <item itemvalue="CMake Application.02_oop_04_main" />
+      <item itemvalue="CMake Application.02_oop_05_main" />
+      <item itemvalue="CMake Application.02_oop_06_main" />
+      <item itemvalue="CMake Application.02_oop_07_main" />
+      <item itemvalue="CMake Application.02_oop_08_main" />
+      <item itemvalue="CMake Application.02_oop_09_main" />
+      <item itemvalue="CMake Application.02_oop_10_main" />
+      <item itemvalue="CMake Application.02_oop_11_main" />
+      <item itemvalue="CMake Application.02_oop_12_main" />
+      <item itemvalue="CMake Application.02_oop_13_main" />
+      <item itemvalue="CMake Application.07_main" />
+      <item itemvalue="CMake Application.day04" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="866692f6-3233-4cbc-8c15-a2b32710608d" name="Default Changelist" comment="" />
+      <created>1604801454384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604801454384</updated>
+      <workItem from="1604801459441" duration="9254000" />
+      <workItem from="1605257795191" duration="2632000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="627" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604808238003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604808238003" />
+    <state width="1867" height="189" key="GridCell.Tab.0.bottom" timestamp="1605261561034">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="82" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604810754693" />
+    <state width="1867" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605259597378" />
+    <state width="1867" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605261561034" />
+    <state width="1867" height="189" key="GridCell.Tab.0.center" timestamp="1605261561034">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="82" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604810754693" />
+    <state width="1867" height="189" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605259597378" />
+    <state width="1867" height="189" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605261561034" />
+    <state width="1867" height="189" key="GridCell.Tab.0.left" timestamp="1605261561034">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="82" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604810754693" />
+    <state width="1867" height="189" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605259597378" />
+    <state width="1867" height="189" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605261561034" />
+    <state width="1867" height="189" key="GridCell.Tab.0.right" timestamp="1605261561034">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="82" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604810754693" />
+    <state width="1867" height="189" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605259597378" />
+    <state width="1867" height="189" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605261561034" />
+    <state x="592" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1605257822501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="592" y="308" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604801459458" />
+    <state x="592" y="308" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605257822501" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604801839508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604801839508" />
+  </component>
+</project>

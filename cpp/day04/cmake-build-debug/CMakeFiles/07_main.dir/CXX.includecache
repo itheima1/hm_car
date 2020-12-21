@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/xiaomi/CLionProjects6/day04/02_oop/07/cpp_01.h
+first.c
+C:/Users/xiaomi/CLionProjects6/day04/02_oop/07/first.c
+
+C:/Users/xiaomi/CLionProjects6/day04/02_oop/07/cpp_02.h
+first.c
+C:/Users/xiaomi/CLionProjects6/day04/02_oop/07/first.c
+
+C:/Users/xiaomi/CLionProjects6/day04/02_oop/07/first.c
+
+C:/Users/xiaomi/CLionProjects6/day04/02_oop/07/main.cpp
+iostream
+-
+cpp_01.h
+C:/Users/xiaomi/CLionProjects6/day04/02_oop/07/cpp_01.h
+cpp_02.h
+C:/Users/xiaomi/CLionProjects6/day04/02_oop/07/cpp_02.h
+
